@@ -1,17 +1,23 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-  <link rel="stylesheet" href="style/Style.css" type="text/css">
   <?php include("pages/head.php");?>
+  <link rel="stylesheet" href="style/Style.css" type="text/css">
     <title>FATEC - Biblioteca</title>
   </head>
   <body>
   <?php include("pages/header.php");?>
         <div class="container">
-        <?php include("pages/nav.php");?>
-
-          <div id="">
-
+        <div class="navbar">
+            <ul>
+              <a href="pages/cadastro-livros.php"><li>Cadastro de livros</li></a>
+              <a href="#"><li>Cadastro de alunos</li></a>
+              <a href="#"><li>Imprestimo</li></a>
+              <a href="#"><li>Devolução</li></a>
+              <a href="#"><li>Consulta</li></a>
+              <a href="#"><li>Histórico</li></a>
+              <a href="#"><li>Perfil</li></a>
+            </ul>
           </div>
           </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
