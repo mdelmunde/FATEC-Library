@@ -105,14 +105,38 @@ header {
     border-left: 4px solid var(--main-red-color);
   }
   
-  .container .navbar ul a:hover, .container .navbar ul a:active,.container .navbar ul a:focus, .container .navbar ul a:visited{
+  .container .navbar ul a:hover, .container .navbar ul a:focus, .container .navbar ul a:visited{
     text-decoration: none;
     color: inherit;
   }
 
   .conteudo{
-    max-width: 80rem;
-    top: 9rem;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 60%;
+    top: 5rem;
     position: absolute;
-    left: 20rem;
+    left: 18rem;
+  }
+  .conteudo form{
+    width: 60%;
+    font-size: 1.1rem;
+  }
+
+  .conteudo form .btns{
+    padding: 0 0 0 17%;
+  }
+
+  .formdiv{
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .profilepic{
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+    width: 20rem;
+  }
+
+  .profilepic img{
+
+    width: 100%;
   }
